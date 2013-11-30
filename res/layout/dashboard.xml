@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f2f2fb" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="18dp"
+            android:background="#f2f2fb" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- Latest Button -->
+
+            <Button
+                android:id="@+id/btn_latest"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/latest"
+                android:text="Latest" />
+
+            <!-- Admission Button -->
+
+            <Button
+                android:id="@+id/btn_admission"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/admission"
+                android:text="Admission" />
+
+            <!-- Colleges Button -->
+
+            <Button
+                android:id="@+id/btn_colleges"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/colleges"
+                android:text="Colleges" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:background="#f2f2fb" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- Courses Button -->
+
+            <Button
+                android:id="@+id/btn_courses"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/courses"
+                android:text="Courses" />
+
+            <!-- Examination Button -->
+
+            <Button
+                android:id="@+id/btn_examination"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/examination"
+                android:text="Examination" />
+
+            <!-- Foreign Students Button -->
+
+            <Button
+                android:id="@+id/btn_foreign"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/foreign"
+                android:text="Foreign Students" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:background="#f2f2fb" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- Conferences Button -->
+
+            <Button
+                android:id="@+id/btn_conferences"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/conferences"
+                android:text="Conferences" />
+
+            <!-- CIC Button -->
+
+            <Button
+                android:id="@+id/btn_cic"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/cic"
+                android:text="Cluster Innov. Center" />
+
+            <!-- Social Button -->
+
+            <Button
+                android:id="@+id/btn_social"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/social"
+                android:text="Social" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:background="#f2f2fb" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- Map Button -->
+
+            <Button
+                android:id="@+id/btn_map"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/map"
+                android:text="Map" />
+
+            <!-- Directory Button -->
+
+            <Button
+                android:id="@+id/btn_directory"
+                style="@style/DashboardButton"
+                android:background="@drawable/color_selec"
+                android:drawableTop="@drawable/directory"
+                android:text="Directory" />
+
+            <!-- Empty Button -->
+
+            <Button
+                android:id="@+id/btn_empty"
+                style="@style/DashboardButton"
+                android:drawableTop="@drawable/empty"
+                android:text="" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:background="#f2f2fb" />
+    </LinearLayout>
+
+</ScrollView>

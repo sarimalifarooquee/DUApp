@@ -1,0 +1,1071 @@
+/*--------Comman Header part----------*/
+body{font-family:Verdana, Arial, Helvetica, sans-serif!important; font-size:12px; font-weight:normal; color:#000000; text-decoration:none; margin:0px; 
+text-align:left; list-style:none; list-style-image:none; list-style-position:outside; list-style-type:none; line-height:140%!important;}
+
+table, tr, td, p, div, span, form, h1, h2, h3, h4, h5, h6, ul, li, img{padding:0px; margin:0px; border:0px; line-height:normal; text-align:left;}
+
+h1{text-transform:uppercase;}
+
+:focus {outline:0;}
+
+li{list-style-image: url(http://du.ac.in/fileadmin/DU/images/bullot.gif); list-style-position:outside;}
+
+a{color: #0060FF; text-decoration: none; cursor:pointer;}
+
+.bg-top{background-image:url(http://du.ac.in/fileadmin/DU/images/top-bg.jpg); background-repeat:repeat-x; background-position:top; line-height:normal; vertical-align:top;}
+
+.top-links{font-family:"Trebuchet MS", Arial; font-size:12px; margin-bottom:10px; color: #B4C6D7; text-decoration:none; letter-spacing:0.1em; font-weight:normal;}
+
+.top-links a{color:#E3EDF7; text-decoration:none}
+
+.top-links ul li{display:inline; border-right:solid 1px #E3EDF7; margin-right:5px; padding-right:5px; height:10px;}
+
+.top-links .no-border{border-right:0px;}
+
+#form1 table tr td{margin:0px; padding:0px; vertical-align:top;}
+
+.search{float:right; font-weight:bold; margin-right:7px; margin-top:10px; background-image:url(http://du.ac.in/fileadmin/DU/images/bg-search.jpg); background-position:left top; background-repeat:no-repeat; height:30px;}
+
+.search-box{font-size:11px; color:#000000; text-decoration:none; background-color:#F8F8F8; text-align:left; vertical-align:middle; height:16px; width:88px; border-style:none; border:0px; float:right; margin-bottom:0px; margin-top:5px;}
+
+a.sample_attach{margin-left:-49px; z-index:500;}
+
+div#sample_attach_menu_child{position:absolute!important; top:64px!important; z-index:999;}
+
+a.sample_attach, a.sample_attach:visited{font-family:Arial, Helvetica, sans-serif; font-size:11px;  	position:relative; display:block; width:100px; border:1px solid black; padding:2px; background: #ffffff; text-decoration:none; color:#4F4D42; text-align:left; clear:both;}
+
+a.sample_attach:hover{color:#FF6000; background-color:#E2FBFF;}
+
+a.sample_attach, a.sample_attach:visited {border-bottom:none;}
+
+div#sample_attach_menu_child{border-bottom:1px solid black;	z-index:600;}
+
+#nav{ position:relative; background-color:#264585; z-index:20; height:28px; margin:0px; padding:0px;}
+
+.jquerycssmenu{font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:13px;}
+
+.jquerycssmenu ul{margin:0; padding:0; list-style-type:none; position:relative;}
+/*Top level list items*/
+.jquerycssmenu ul li{position:relative; display:inline; float:left; text-align:center; width:14%; letter-spacing:0.1em;}
+/*Top level menu link items style*/
+.jquerycssmenu ul li a{display:block; background:#264585;/*background of tabs (default state)*/padding-top:5px; padding-bottom:5px; margin-right:8px;/*spacing between tabs*/color:#fff; text-decoration:none;}
+
+.jquerycssmenu ul li a:hover{background-color:#48639B;/*tab link background during hover state*/ z-index:999; text-decoration:none;}
+/*1st sub level menu*/
+.jquerycssmenu ul li ul{font-family:Verdana, Arial, Helvetica, sans-serif!important; position:absolute; left:0;	display:block; visibility:hidden; border-top:0px solid black; z-index:999; text-decoration:none; padding-bottom:4px; background-image:url(http://du.ac.in/fileadmin/DU/images/bottom-curve.gif)!important; background-position:bottom; background-repeat:no-repeat;}
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jquerycssmenu ul li ul li{text-decoration:none; float:none; z-index:999;}
+
+.jquerycssmenu ul li ul li ul{top:0; z-index:999;}
+
+.jquerycssmenu ul li ul li a{font-size:11px; font-weight:normal; letter-spacing:0em; width:160px; background:#E2EDF8; color:black; padding:4px 5px; margin:0;	border:1px solid #87A4C2; border-bottom:0px solid #DCDCDC; text-align:left; z-index:999; text-decoration:none;}
+
+.jquerycssmenu ul li ul li a:hover{background:#AFCBE8; color:#000000; margin:0;	border:1px solid #87A4C2; text-align:left; z-index:999; text-decoration:none; border-bottom:none;}
+
+.dropact{color:#FFFFFF!important; background-color:#48639B!important;}
+
+.main-link {background-color:#264585;}
+
+.main-link td{border-style:none; font-size:12px; font-weight:bold; color:#FFFFFF; text-decoration:none; text-align:center; vertical-align:middle; letter-spacing:0.1em; margin:0px; padding:0px; vertical-align:top;}
+/*--------Comman Header Part Ends----------*/
+
+/*---------------------Common Footer Starts--------------------------*/
+.footer {color: #000000; text-decoration: none; background-image: url('http://du.ac.in/fileadmin/DU/images/bg-footer.jpg'); background-repeat: repeat-x; height: 33px; width: 100%; margin-top: 0px; background-position:50%; padding-left:0px;}
+
+ .footer a{color:#000000;}
+
+.footer ul li{display:inline; border-right:solid 1px #2a2a2a; padding-left:0px; padding-left:5px; padding-right:5px;}
+
+.footer .no-border{border-right:0px;}
+/*---------------------Common Footer Ends--------------------------*/
+
+/*---------------------Photo Gallary Starts--------------------------*/
+
+.caption{background-color:#3E5FA4; text-align:center; line-height:22px; display: block;}
+
+.caption a{background-color:#3E5FA4; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; font-weight:bold; text-align:center; margin:auto;}
+
+.rgsgnest371, .rgsgnest699{text-align:center; margin:auto!important;}
+/*---------------------Photo Gallary Ends--------------------------*/
+
+
+#academicshead h1{font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:900; color:#FFFFFF; padding-left:10px; background-color:#274688; width:170px; padding-top:5px; letter-spacing:0.1em; height:23px; text-transform:uppercase; text-align:left !important;}
+
+div.more a{float:right; font-weight:bold; color:#000000;}
+
+.mid_addresses_txt ul{padding:0px; margin:0px; border:0px solid #cccccc; padding:10px 10px 10px 23px;}
+
+.mid_addresses_txt ul li{padding:0px; margin:0px; margin-bottom:10px; list-style:none; list-style-image:url(http://du.ac.in/fileadmin/DU/images/bullot.gif); list-style-position:outside; font-size:12px; color:#000000; text-align:left;}
+
+.mid_addresses_txt ul li a{font-size:12px; color:#0060FF; text-decoration:none; text-align:left;}
+
+.mid_addresses_txt h1{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: 900;
+	color: #104277;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom:0px solid #cccccc;
+	padding-bottom:3px;
+	padding-top:9px;
+	display:block;
+	text-align:left;
+	padding-left:10px;
+	letter-spacing:0.1em!important;
+}
+
+.top{text-align:right; display:block;}
+
+.leftheading h1{font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:900; color:#FFFFFF; padding-left:10px; background-color:#274688; width:170px; padding-top:5px; letter-spacing:0.1em; height:23px; text-transform:uppercase; text-align:left !important; margin-left:0px!important; float:left;}
+
+.leftheading .collegehead h1{font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:900; color:#FFFFFF; padding-left:10px; background: none; background-color:transparent; /*background-color:#274688!important;*/ padding-top:10px; text-transform:uppercase; text-align:left !important; letter-spacing:0!important;}
+
+p{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;	padding:0px 10px 0px 10px; text-align:left; margin:0px 0px; text-align:justify; line-height: 140%;}
+
+.mid_addresses_txt p{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;	padding:5px 10px 10px 10px; text-align:left; text-align:justify; line-height: 140%;}
+
+p a {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color:#0060FF; text-decoration:none; text-align:justify;}
+
+.bg-content {height:100%!important; margin-bottom:0px!important; height:auto!important;}
+
+#mid-container{min-height:439px; height:auto !important; height:439px;background-color: #F6FCFF; background-color: #F6FCFF; background-image: url(http://du.ac.in/fileadmin/DU/images/bg-content-college.jpg); background-repeat: repeat-x; background-position: top; display:block;}
+
+.college-events {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	background-image: url(http://du.ac.in/fileadmin/DU/images/bg-college-events.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	border: 1px solid #6887A5;
+	margin-top: 2px;
+	width:180px;
+}
+
+.college-events div{text-align:left;}
+
+.college-events div span.date{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 140%; font-weight: bold; color: #D13939; text-decoration: none; text-align: left; clear:both; margin-right:10px; margin-left:10px; text-align:left;}
+
+.college-events div span.heading a{font-family:  Arial, Helvetica, sans-serif; font-size: 12px; line-height: 120%; font-weight: bold; color: #000000; text-decoration: none; text-align: left; margin-right:10px; margin-left:10px; text-align:left;}
+
+.college-events div div.content{font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 110%;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	border:0px;
+	padding-left: 10px;	padding-right: 10px; 
+	margin-bottom:10px;
+}
+.college-events div span.more{font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 100%;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	border:0px;
+	padding-left: 10px;	padding-right: 10px!important;
+}
+
+.collegehead{
+background-image: url(http://du.ac.in/fileadmin/DU/images/bg-college-events.gif); background-repeat: repeat-x;
+padding-top:0px;}
+
+.bred-crum_college {font-family: verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; color:#009933; text-decoration: none; background-color: #FFFFFF; height: 18px; margin-top: 3px; margin-bottom: 3px; border: 1px solid #9AE1FF; padding: 5px 5px 0px 10px; text-align:left; text-transform:uppercase!important;}
+
+.bred-crum_college a{font-size: 12px; font-weight: normal;color:#001643; text-decoration: none; text-transform:uppercase;}
+
+#c1 h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	color: #ffffff;
+	text-decoration: none;
+	background: #3E5FA4;
+	padding:5px 00 5px 10px;
+	letter-spacing:0.1em;
+	text-align:left;
+	background-image: none;
+	width:98.7%;
+	.width:100%;
+}
+
+#contentA2 ul {
+margin:0px; padding:0px; margin-left:25px;
+}
+#contentA2 li a{
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#0060FF;
+	line-height:21px;
+	margin:0px!important;
+	padding:0px!important;
+}
+
+.top{
+	text-align:right;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4A7B0A;
+	font-weight: bold;
+}
+.top a{
+	text-align:right;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #4A7B0A;
+	font-weight: bold;
+}
+
+.principal h2 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #3E648B; text-decoration: none; letter-spacing: 0.1em; text-align: center; background-color:#FFFFFF; border-bottom:0px solid #134084!important}
+
+h2 {font-family: Arial, Helvetica, sans-serif; font-size: 12px;	color: #3E648B;	text-decoration: none; letter-spacing: 0.1em; text-align: left; margin-top:10px!important; text-transform:uppercase; padding-left:10px;}
+
+.demo-show2 div table td h2{font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #3E648B; text-decoration: none; letter-spacing:0.1em; text-align: left; margin-top:0px!important; text-transform:uppercase; padding-left:0px;}
+
+.demo-show2 div table td{font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; text-decoration: none; text-align: left; margin-top:0px!important; padding:5px!important; line-height:16px!important;}
+
+
+.top-shadow {background-image: url(http://du.ac.in/fileadmin/DU/images/top-shadow.gif); background-repeat:repeat-x; background-position:bottom;}
+.left-shadow {background-image: url(http://du.ac.in/fileadmin/DU/images/left-shadow.gif); background-repeat:repeat-y; background-position:right; width:5px!important;}
+.right-shadow {background-image: url(http://du.ac.in/fileadmin/DU/images/right-shadow.gif); background-repeat:repeat-y; background-position:left; width:5px!important;}
+.bottom-shadow {background-image: url(http://du.ac.in/fileadmin/DU/images/bottom-shadow.gif); background-repeat:repeat-x; background-position:top;}
+.shadow {margin-top:0px; float:left; top:0px;}
+.shadow td{vertical-align:top!important; padding:0px!important; margin:0px!important;}
+
+.chairman-name{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#3E648B;
+	margin:0px;
+	padding:0px;
+}
+
+.chairman-detail td{ 
+	padding:0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000; text-align:left;
+	padding-left:10px!important;
+}
+	
+.chairman-detail td a{ color:#0060FF; text-decoration:none;}
+
+.demo-show2 div{border:0px solid #cccccc; padding-left:0px; padding-right:0px;}
+
+.demo-show2 div b, .demo-show2 div strong {color: #3E648B;}
+
+.demo-show2 div table{width:100%!important; border:1px solid #E6ECEF; border-top:0px solid #E6ECEF;}
+
+.demo-show2 div table td{font-family:verdana, Arial, Helvetica, sans-serif; padding-left:10px!important; padding-right:10px!important; text-align:justify;}
+
+.demo-show2 div table td p{font-family:verdana, Arial, Helvetica, sans-serif; margin:0px!important; padding:0px!important; border:none!important; padding-top:5px!important; padding-bottom:5px!important; display:block;}
+
+.demo-show2 div table td p{font-family:verdana, Arial, Helvetica, sans-serif; margin:0px!important; padding:0px!important; border:none!important; padding-top:0px!important; padding-bottom:0px!important; display:block; text-align:left;}
+
+
+.demo-show2 div p{
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	background-color:#D7E5EC;
+	border:1px solid #E6ECEF;
+	border-top:0px solid #E6ECEF;
+	padding:5px!important;
+	padding-left:10px!important;
+	background-image:url(http://du.ac.in/fileadmin/DU/images/faculty-table-bg.jpg) !important; 
+	background-repeat:repeat-x; background-position:top;
+	background-color:#ffffff;
+}
+
+.demo-show2 div table td p{
+	font-family:verdana, Arial, Helvetica, sans-serif;
+	background-color:#D7E5EC;
+	border:1px solid #E6ECEF;
+	border-top:0px solid #E6ECEF;
+	padding:5px!important;
+	padding-left:10px!important;
+	background-image:url(http://du.ac.in/fileadmin/DU/images/faculty-table-bg.jpg)!important; 
+	background-repeat:repeat-x; background-position:top;
+	background-color:#ffffff;
+}
+
+.faculty-box div.demo-show2 h1{	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3E5FA4;
+	margin:0px;
+	margin-top:4px!important;
+	padding:0px;
+	width:97.5%!important;
+	wid/th:97%;
+	.width:98%;
+	background-image: url(http://du.ac.in/fileadmin/DU/images/faculty-h1.gif)!important;
+	background-repeat: repeat-x;
+	background-position: top;	
+	border:1px solid #CFE4EE;
+	cursor:pointer; 
+	padding-left:10px!important;
+	line-height:20px;
+}
+
+div.demo-show2 h1{
+	padding:0px;
+	width:100%!important;
+	padding-left:10px!important;
+	padding-right:10px!important;
+	cursor:pointer; 
+	margin-top:0px!important;
+	margin-bottom:0px!important;
+}
+
+div.demo-show2 h1 span{
+	Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3E5FA4;
+	margin:0px;
+	width:100%;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.demo-show div, .demo-show2 div{padding-left:0px;}
+
+.hover{cursor:pointer;}
+
+#hover-demo1, #hover-demo2{border:1px solid #090;}
+
+
+.gray-line, .faculty-box div.demo-show2 table td{
+	background-color:#D7E5EC;
+	border-top:1px solid #E6ECEF;
+	background-image:url(http://du.ac.in/fileadmin/DU/images/faculty-table-bg.jpg) !important; 
+	background-repeat:repeat-x; background-position:top;
+	background-color:#ffffff;
+	line-height:20px;
+}
+
+h1.csc-firstHeader{font-family: Arial, Helvetica, sans-serif; font-size: 13px!important; font-weight: bold; color: #ffffff; background-color:#3E5FA4; text-decoration: none; text-transform: uppercase; border-bottom:0px solid #cccccc; padding-bottom:3px; padding-top:6px; display:block; text-align:left; background-image: none; margin-top:0px !important; padding-left:10px; letter-spacing:0.1em;}
+
+#contentA1 h1#head, #contentA1 h1 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #ffffff; background-color:#3E5FA4; text-decoration: none; text-transform: uppercase; border-bottom:0px solid #cccccc; padding-bottom:3px; padding-top:6px; display:block; text-align:left; padding-left:10px!important; background-image: none; margin-top:0px !important;}
+
+.msg_list {
+	margin: 0px;
+	padding: 0px;
+	width:100%!important;
+    z-index:0;
+}
+.msg_list p{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding:0px 10px 0px 10px;
+	text-align:left;
+}
+.msg_head {
+	padding: 2px 10px;
+	cursor: pointer;
+	margin-top:2px;	
+	background-image: url(http://du.ac.in/fileadmin/DU/images/faculty-h1.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	border: 1px solid #CFE4EE!important;
+	border-top: 1px solid #CFE4EE!important;
+	height:20px!important;
+       z-index:0;
+}
+.msg_head a,.msg_head a:link,.msg_head a:hover{
+	color:#000000;
+	text-decoration:none;
+    z-index:0;
+}
+.msg_head#level-one{
+	padding: 2px 10px 2px 30px;
+	cursor: pointer;
+	position: relative;
+	background-color:#fcfcfc;
+	margin:2px;
+	background-image: none;
+	border:0px;
+    z-index:0;
+}
+.msg_head#level-two{
+	padding: 2px 10px 2px 30px;
+	cursor: pointer;
+	position: relative;
+	background-color:#f5f5f5;
+	margin:2px;
+	background-image:none;
+	border:0px;
+    z-index:0;
+}
+.msg_head#level-three{
+	padding: 2px 10px 2px 30px;
+	cursor: pointer;
+	position: relative;
+	background-color:#f0f0f0;
+	margin:0px;
+	height:auto;
+	background-image: none;	
+	border-top: 0px solid #cccccc!important;
+    z-index:0;
+}
+.msg_head#level-three a{
+	padding-left:10px;
+	color:#00A1FE;
+	text-decoration:none;
+	background-image:url(http://du.ac.in/fileadmin/DU/images/bullot-red.gif);
+	background-position:left;
+	background-repeat:no-repeat;
+	border:0px;	
+    z-index:0;
+}
+
+.msg_body {
+	padding: 0px 0px 0px 0px;
+	background-color:#F4F4F8;
+	border-left: 1px solid #F1EEEE!important;
+	border-right: 1px solid #F1EEEE!important;
+       z-index:0;
+
+}
+
+.msg_body table{
+    position: relative;
+    color:#00A1FE;
+	text-decoration:none;
+	background-image: none;
+     z-index:0;	
+	}
+
+
+.msg_body table tr td{
+	padding-left:24px;
+    color:#00A1FE;
+	text-decoration:none;
+	height:auto;
+	border:0px;	
+       z-index:0;
+}
+	  
+div#PageLists {
+	width:97%;
+	margin:auto;
+	border:none;
+}
+	
+#content-index-pages table.highlight-box{
+width:97.5%!important;
+	margin:auto!important;
+}
+	
+#content-index-pages table.highlight-box td div.alpha-index-page{
+line-height:22px;}
+
+#content-index-pages table.highlight-box a{
+padding-left:0px;}
+
+table.alpha-index{width:97.7%; margin:auto;}	  
+
+.alpha-index {margin:0px;padding:0px;}
+
+.alpha-index td.alpha-index{margin:0px;padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#79BFEB; font-weight:bold; background-color:#0099FF; text-align:center; padding:.25%; border:1px solid #418FBF; z-index:0;}
+
+.alpha-index td.alpha-index a{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#ffffff; font-weight:bold; text-decoration:none; background-color:#0099FF; text-align:center; margin:0px; padding:0px; z-index:0;}
+
+.alpha-index-page a{font-family:verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#6F6F6F; color:#0060FF; text-decoration:none;margin:0px; padding:0px;}
+
+.highlight-box {border-top:1px solid #E6ECEF!important; border-left:1px solid #E6ECEF!important;  margin-top:0px; width:100%; line-height:20px;}
+
+.highlight-box td{padding:5px 0px 5px 10px!important; background-color:#D7E5EC; border-bottom:1px solid #E6ECEF!important; border-right:1px solid #E6ECEF!important; background-image:url(http://du.ac.in/fileadmin/DU/images/faculty-table-bg.jpg) !important; background-repeat:repeat-x; background-position:top;background-color:#ffffff; width:50%; line-height:20px;}
+
+#body2, #body3, #body4, #body5, #body6, #body7, #body9, #body10, #body11, .contenttable p, *.bodytext{margin:0px; padding:0px;}
+.content-div {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#3E5FA4;
+}
+.div_head {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#3E5FA4!important;
+	font-weight:bold;
+	cursor: pointer;
+	background-image: url(http://du.ac.in/fileadmin/DU/images/faculty-h1.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	border: 1px solid #CFE4EE!important;
+	border-top: 1px solid #CFE4EE!important;
+	margin-top:4px;
+	padding:2px 0px 2px 10px;
+}
+.div_body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#2a2a2a;
+	margin:0px;
+	padding:10px;
+	background-color:#ffffff;
+}
+
+.div_body ul{
+padding:0px; margin:0px;
+}
+.div_body ul li{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#3E5FA4;
+	list-style-image:url(http://du.ac.in/fileadmin/DU/images/bullot.gif)!important;
+	list-style-position:inside;
+	width:100%!important;
+	text-align:left;
+	padding-left:10px;
+}
+.div_body ul li a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#0060FF;
+	text-decoration:none;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+/*--Contect Us css----*/
+
+.contact-outer-border .contectus-top {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:180%;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	background-color:#194F6D;
+	text-align:left; 
+	vertical-align:middle;
+	height:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px!important;
+}
+.contact-outer-border .contectus-head {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 180%;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #015E93;
+	text-align: left;
+	vertical-align: middle;
+	height: 20px;
+	padding-left:10px!important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.contectus-head a{
+	color: #FFFFFF;
+}
+.contact-outer-border .alternate-design-dark {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 180%;
+	color: #525252;
+	text-decoration: none;
+	background-color: #DDEEFF;
+	height: 20px;
+	padding-top: 5px;
+	padding-left: 10px!important;
+	border-bottom: 1px solid #8EBDD7;
+	padding-bottom: 5px;
+}
+.contact-outer-border{
+	border:1px solid #8EBDD7; 
+	margin:2px;}
+
+.contact-outer-border .alternate-design-light {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 180%;
+	color: #525252;
+	text-decoration: none;
+	border-bottom: 1px solid #8EBDD7;
+	background-color: #E9F7FF;
+	height: 20px;
+	padding-top: 5px;
+	padding-left: 10px!important;
+	border-bottom: 1px solid #8EBDD7;
+	padding-bottom: 5px;
+}
+
+
+.admin-box div.demo-show2 h1 span{font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3E5FA4;
+	margin:0px;
+	margin-top:4px!important;
+	padding:0px;
+	width:100%!important;
+	background-image: url(http://du.ac.in/fileadmin/DU/images/faculty-h1.gif)!important;
+	background-repeat: repeat-x;
+	background-position: top;	
+	border:1px solid #CFE4EE;
+	cursor:pointer; 
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	display:block;
+	margin-left:0px!important;
+	}
+.admin-box div.demo-show2 table td{
+	background-color:#D7E5EC;
+	border-top:1px solid #E6ECEF;
+	padding:5px!important;
+	padding-left:10px!important;
+	background-image:url(http://du.ac.in/fileadmin/DU/images/faculty-table-bg.jpg) !important; 
+	background-repeat:repeat-x; background-position:top;
+	background-color:#ffffff;
+}
+* .admin-box {
+	z-index:0;
+}
+.admin-box{
+	margin:0px;
+	padding:0px;
+}
+.admin-box h4{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3E5FA4;
+	text-decoration: none;
+	text-align:left;
+	margin:5px 0px;
+}
+.admin-box table{
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	color: #000;
+	text-decoration: none;
+	border:0px;
+	border:0px solid #E6ECEF;
+	border-top:0px solid #cccccc;
+	width:100%;
+	align:left;
+}
+
+div.admin-box {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	color: #000;
+	text-decoration: none;
+	margin:0px!important;
+	text-align:left;
+	border:0px;
+	text-align:justify;
+	width:100%;
+}
+
+.admin-box div{
+	width:100%;
+	margin:0px; padding:0px;
+}
+
+.admin-box td ul{
+	padding:0px; margin:0px; border:0px;
+}
+
+.admin-box ul{
+	padding:0px; 
+	margin:0px !important; 
+	border:0px;
+	border:1px solid #E6ECEF;
+	border-top:0px solid #cccccc;
+}
+
+.admin-box div ul li{
+	padding:0px;
+	margin:0px;
+	list-style-image: none;
+	list-style-position:outside;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	color: #000;
+	text-decoration: none;
+	margin-bottom:4px;
+	margin-left:0px;
+	list-style-type: none;
+	text-align:left;
+	text-align:justify;
+	background-color:#D7E5EC;
+	border-top:1px solid #E6ECEF;
+	padding:5px !important;
+	padding-left:10px;
+	background-image:url(http://du.ac.in/fileadmin/DU/images/faculty-table-bg.jpg) !important; 
+	background-repeat:repeat-x; 			
+	background-position:top;
+	background-color:#ffffff;
+
+}
+
+.admin-box td{
+	padding: 0px 10px 0px 10px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.admin-box td td{
+	padding: 0px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.admin-box h1 span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #3E5FA4;
+	text-decoration: none;
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+	margin-top:9px;
+	background-image: url(http://du.ac.in/fileadmin/DU/images/faculty-h1.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	border: 1px solid #CFE4EE;
+	padding-top:5px;
+	padding-bottom:5px;
+	letter-spacing:0.1em;
+	padding-left:10px;
+	text-align:left;
+
+}
+.admin-box h1{
+	margin:0px;
+	padding:0px;
+	margin-bottom:3px;
+	padding-bottom:1px;
+	padding-left:10px;
+	text-align:left;
+	width:100%
+
+}
+
+.admin-box a{
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	color: #0060FF;
+	text-decoration: none; 
+}
+
+.admin-box p{
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height:140%;
+	color: #000;
+	text-decoration: none; border:0px;
+	text-align:left;
+	text-align:justify;
+}
+
+.admin-box td ul li{
+	padding:0px; margin:0px; 
+	list-style:none; 
+	list-style-image:url(http://du.ac.in/fileadmin/DU/images/bullot.gif);
+	list-style-position:outside; 
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 140%;
+	color: #000000;
+	text-decoration: none;
+	margin-bottom:4px;
+	margin-left:20px;
+	text-align:left;
+}
+
+.admin-box  h1#head{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color:#3E5FA4;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom:0px solid #cccccc;
+	padding-bottom:3px;
+	padding-top:6px;
+	display:block;
+	text-align:left;
+	padding-left:10px;
+	background-image: none;
+	margin-top:0px !important;
+	letter-spacing:0.1em;
+}
+
+.courses-list {
+	padding:5px 0px 2px 20px;
+	background-image:url(http://du.ac.in/fileadmin/DU/images/bullot-red.gif)!important;
+	background-position:1% 60% ;
+	background-repeat:no-repeat;
+       z-index:0;
+   }
+.courses-list a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#0060FF;
+	text-decoration:none;
+       z-index:0;
+}
+#expanded{
+	width:100%!important;
+	border:0px solid #111;
+}
+#expanded ul{padding:0px; margin:0px; border:0px solid #cccccc; padding:00px 10px 10px 23px;}
+#expanded ul li{padding:0px; margin:0px; list-style:none; list-style-image:url(http://du.ac.in/fileadmin/DU/images/bullot.gif); list-style-position:outside; font-size:12px; color:#000000; text-align:left; background:none!important; border:none;}
+
+#navleft{
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		float : left;
+		width : 11em;
+		text-align:left;
+	}
+	#navleft li { /* all list items */
+		position : relative;
+		float : left;
+		line-height : 1.25em!important;
+		margin-bottom : -1px;
+		width: 11em;
+		list-style-image:none;
+	}
+	
+	#navleft li ul { /* second-level lists */
+		position : absolute;
+		left: -999em;
+		margin-left : 180px;
+		margin-top : -27px;
+		z-index:999;
+	}
+	#navleft li ul li{
+		font:normal 11px verdana,arial,helvetica,sans-serif;
+		font-weight:normal!important;
+		z-index:999;
+	}
+	
+	#navleft li ul ul { /* third-and-above-level lists */
+		left: -999em;
+	}
+	#navleft li{
+	margin:0px; padding:0px;
+	}
+	
+	#navleft li a {
+		padding: 6px 0px 6px 4px !important;
+		padding-left:4px;
+		display : block;
+		font:normal 11px verdana,arial,helvetica,sans-serif;
+		font-weight : bold;
+		width: 170px;
+		color : #494c59;
+		text-decoration : none;
+		background-image : url(http://du.ac.in/fileadmin/DU/images/tile-silver-3.gif);
+		background-repeat:repeat-x;
+		background-position:bottom;
+		border-style:solid;
+		border-color:#ccc #888 #555 #bbb;
+		border-width:1px;
+		text-decoration:none;
+		background-color:#FCFCFC;
+		border-right:5px solid #009933;
+	}
+	#navleft ul li ul{
+	margin-top:0px!important;}
+	
+	#navleft li ul li {
+	list-style:none;
+	list-style-image:none;
+	list-style-type:none;
+	}
+	#navleft li ul li a {
+		padding: 3px 0;
+		padding-left:4px;
+		display : block;
+		font:normal 11px verdana,arial,helvetica,sans-serif;
+		font-weight : normal;
+		width: 168px;
+		color : #494c59;
+		text-decoration : none;
+		background-image : url(http://du.ac.in/fileadmin/DU/images/tile-silver-3.gif);
+		background-repeat:repeat-x;
+		background-position:bottom;
+		border-style:solid;
+		border-color:#ccc #888 #555 #bbb;
+		border-width:1px;
+		text-decoration:none;
+		background-color:#FCFCFC;border-right:5px solid #009933;
+	}
+	
+	#navleft li a:hover,  #navleft li a.hover{
+		color:#060;
+		background-image : url(http://du.ac.in/fileadmin/DU/images/tile-blue-over-3.gif);
+		background-repeat:repeat-x;
+		background-position:bottom;
+		background-color:#FCFCFC;
+		position:static;
+	}
+	
+#navleft li:hover ul ul, #navleft li:hover ul ul ul, #navleft li.sfhover ul ul, #navleft li.sfhover ul ul ul {
+	left: -999em;
+}
+	
+	#navleft li:hover ul, #navleft li li:hover ul, #navleft li li li:hover ul, #navleft li.sfhover ul, #navleft li li.sfhover ul, #navleft li li li.sfhover ul {
+	left: auto;
+}
+
+#navleft .dropact{ color:#060 !important; background-image : url(http://du.ac.in/fileadmin/DU/images/tile-blue-over-3.gif);
+	background-repeat:repeat-x;
+	background-position:bottom!important;
+	background-color:#FCFCFC!important;
+}
+
+h1#head{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color:#3E5FA4;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom:0px solid #cccccc;
+	padding-bottom:3px;
+	padding-top:6px;
+	display:block;
+	text-align:left;
+	padding-left:8px!important;
+	width:99%;
+	.width:100%;
+	background-image: none;
+	margin-top:0px !important;
+	letter-spacing:0.1em;
+}
+
+.mid_addresses_txt div.middle-content div.content-box-detail div.admin-box div.demo-show2 h1 {margin:0px!important; padding:0px!important; width:98.5%!important; .width:98.5%!important; wid/th:99%!important;}
+
+.mid_addresses_txt div.middle-content div.content-box-detail div.faculty-box div.demo-show2 h1 {margin:0px!important; width:98.5%!important; .width:98.5%!important; wid/th:99%!important; padding:2px 0px 2px 10px!important; margin-top:4px!important; }
+.mid_addresses_txt div.middle-content div.content-box-detail div.admin-box div#expanded div.demo-show2 h1.div_head {margin:0px!important; width:98.5%!important; .width:98.5%!important; wid/th:99%!important; padding:5px 0px 4px 10px!important; margin-top:4px!important; font-size:12px; font-family:Arial, Helvetica, sans-serif }
+
+
+.mid_addresses_txt div.middle-content div.content-box-detail div.admin-box div#expanded div.demo-show2 .div_body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 12px; color:#2a2a2a;	margin:0px;	padding-left:10px;	
+	line-height:20px;	background-color:#ffffff;	width:97%;}
+.complete-profile{
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:4px!important;
+	margin-bottom:4px!important;
+	background-image:url(http://du.ac.in/fileadmin/DU/images/faculty-h1.gif) !important; 
+	background-repeat: repeat-x;
+	background-position: top;	
+	line-height:20px!important;
+	border:1px solid #CFE4EE;	text-transform:uppercase;	letter-spacing:0.1em;
+}
+	
+div.complete-profile a, .complete-profile a.link,.complete-profile a.hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#3E5FA4!important;
+	font-weight:bold; padding-left:10px!important;
+}
+
+a #c2689 {display:none;}
+
+
+/*   lightbox css      */
+
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(http://du.ac.in/fileadmin/DU/images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(http://du.ac.in/fileadmin/DU/images/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
+table.left-padding{margin:8px!important;}
+table.left-padding tr td{padding-bottom:5px!important; padding-right:15px!important;}
+
+/*   Courses page */
+
+div.college-box div table td { padding:3px 0px 3px 5px!important; background-color:#D7E5EC; background-color:#ffffff;}
+
+div.college-box div p { padding:3px 10px 3px 10px;}
+
+.rgsgnest694{margin:auto;}
+
+.preface-text{font-family:Arial, Helvetica, sans-serif!important; font-size:12px!important; color:#000000!important; border:none!important;}
+
+.preface-text td{padding:5px 10px!important;}
+
+td.college-data-text{padding:3px!important; }
+
+div.faculty-box table.admin-profile-table{margin:auto;}
+
+div.faculty-box table.admin-profile-table td{font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; text-align:center; color:#505050;}
+
+div.faculty-box table.admin-profile-table td h4{font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; text-align:center; color:#48639B;}
+
+div.faculty-box table.admin-profile-table td.green-text, div.faculty-box table.admin-profile-table td.green-text a:link{font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; text-align:center; color:#009933!important;}
+
+.ext-arc {
+font-family:Arial, Helvetica, sans-serif; 
+font-size:12px; font-weight:normal; text-transform:capitalize; text-decoration:none;}
+
+.ext-arc table {border-top:1px solid #E6ECEF; border-left:1px solid #E6ECEF;  margin-top:0px; width:100%; line-height:20px;}
+
+.ext-arc table td{padding:7px 0px 7px 10px!important; background-color:#D7E5EC; border-bottom:1px solid #E6ECEF; border-right:1px solid #E6ECEF; background-image:url(http://du.ac.in/fileadmin/DU/images/faculty-table-bg.jpg); background-repeat:repeat-x; background-position:top;background-color:#ffffff; width:50%; line-height:normal;}
+
+.feedback_form {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; width:700px; padding-left:10px}
+.feedback_form input.text { width:250px; }
+.feedback_form select.query{ width:255px; } 
+.feedback_form textarea{ width:250px; height:180px} 
+.feedback_form td{ height:30px;}
+
+#gmap{z-index:-1;}
+
+.h2_heading{font-family: Arial, Helvetica, sans-serif; font-size: 12px;	color: #3E648B;	text-decoration: none; letter-spacing: 0.1em; text-align: left;  margin-top:10px!important; text-transform:uppercase; font-weight:bold;}
+h5{padding:10px 10px 5px 10px;}

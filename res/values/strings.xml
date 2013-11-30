@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Delhi University</string>
+    
+    <string name="colleges">colleges</string>
+	<string name="admission">admission</string>
+	<string name="social">social</string>
+	<string name="cluster">cic</string>
+	<string name="map">map</string>
+				
+	    
+	<string name="latest">latest</string>    
+	<string name="courses">courses</string>    
+	<string name="examination">examination</string>    
+	<string name="foreign">foreign</string>    
+	<string name="conferences">conferences</string>    
+	<string name="directory">directory</string>
+
+	<string name="social_url">http://m.facebook.com/UniversityofDelhi</string>
+	<string name="cluster_url">http://m.facebook.com/CIC.DU</string>	
+	<string name="map_url">http://goo.gl/maps/UTp2y</string>    
+	
+						
+</resources>
